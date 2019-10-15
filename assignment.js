@@ -4,7 +4,7 @@ let  c=(a>b)?a:b
 return c;
 }
 
- function corsework(cos)
+ function coursework(cos)
  {
      let w =check(90,80)+cos
      let avg=w/2
