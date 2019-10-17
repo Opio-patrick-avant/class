@@ -1,0 +1,58 @@
+.main {
+  background-color: rgb(148, 148, 236);
+  height: 600px;
+  width: 1200px;
+  padding:10px;
+}
+
+.form
+{
+  background-color: rgb(198, 201, 223);
+  height:570px;
+  width:1190px;
+  padding:5px;
+}
+
+.div
+{
+   background-color: rgb(255, 123, 0);
+  height:250px;
+  width:47%;
+  display:inline-block;
+  padding:11px; 
+ margin:5px;
+
+}
+/* 
+.second
+{
+   background-color: black;
+  height:250px;
+  width:590px;  
+}
+
+.third
+{
+   background-color: rgb(255, 0, 212);
+  height:250px;
+  width:590px; 
+  float:; 
+}
+
+.fourth
+{
+   background-color:darkgoldenrod;
+  height:250px;
+  width:590px;   */
+
+fieldset {
+  display: block;
+  margin-left:10px;
+  margin-right: 20px;
+  padding-top: 0.35em;
+  padding-bottom: 130;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  height: 230px;
+  border: 40px groove (internal value);
+}
