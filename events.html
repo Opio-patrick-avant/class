@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>EVENTS</title>
+<link rel="stylesheet" href="events.css">
+
+<style>
+html{font-family: sans-serif;color: #333;}
+body{max-width: 500px;margin: 0 auto;padding: 0 16px;}
+div{ padding:15px;margin:6px;border:2px solid #dedede;}
+</style>
+  </head>
+  <body>
+      <h1>Accessing elements in Dom</h1>
+      <h2>Id (#demo)</h2>
+      <div id="demo1"> Access by id</div>
+      <!--creating divs-->
+    <div class="demo">Acces me by class(1)    
+    </div>
+    <div class="demo">Acces me by class(2)</div>
+    <div></div>
+    <div class="demo">Acces me by class(3)</div>
+    <h2>Tag(article)</h2>
+    <article>Access me by tag (1)</h2></article><br>
+        <article>Access me by tag (2)</article>
+        <h2>Query selector</h2>
+      <div id ="demo-query">access me by query</div>
+      <!--demostrating query selector all-->
+      <h2>query selector all </h2>
+      <div class ="demo-query-all">acces me by all (1)</div>
+      <div class="demo-query-all">acces me by all (2)</div>
+
+    <!--creating  a form-->
+    <form class="form">Form<fieldset>
+        <legend>Customer Information</legend>
+        Customer Id <input type="text"><br><br>
+        Name<input type="text" placeholder="123-45-6789" id="name"><br><br>
+        Town<input type="text" placeholder="Opio patrick" id="town">
+    </fieldset>
+     
+    </form>
+    <script src="access.js"></script>
+  </body>
+</html>

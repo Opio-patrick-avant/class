@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>school marks system</title>
-</head>
-<body>
-    <form action="/action_page.php">
-        Username: <input type="text" name="usrname"><br>
-        <input type="submit" value="Submit">
-    </form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FORM</title>
+    <link rel="stylesheet" type="text/css" href="form.css" />
+    </head>
+  <body>
+    <script>
+      let D = new Date()
+      //alert("Today is: " + Date.)
+      document.body.innerHTML = "<h1> Today's date is  " + D + "</h1>"
+    </script>
+    
+    <div class="main">
+      <form action = '' method = '' class="form">
+        <div class="div">
+            <fieldset>
+              <legend>Customer Information</legend>
+              Customer Id <input type="text" ><br>
+              Name<input type="text" placeholder="123-45-6789" id="name"><br>
+              Town<input type="text" placeholder="Opio patrick" id="town">
+            </fieldset>
+        </div>
+        <div class="div">
+          <fieldset>
+            <legend>Shiping</legend>
+            <input type="radio">UPS<br>
+             <input type="radio">US Postal Air<br>
+            <input type="radio"> Fed Ex Ground           
+          </fieldset>
+        </div>
+        <div class="div"> 
+          <fieldset>
+          <legend>Part Ordered</legend>
+          <br>
+          Name: <input type="text"><br>
+          <br>
+          Email: <input type="text"><br>
+          <br>
+          Date of birth: <input type="text">
+        </fieldset></div>
+
+        <div class="div"><fieldset>
+          <legend>Output</legend>
+          Cost <input type="text" id = "Cost"><br>
+          Sales tax <input type="text" id ="Sales"><br>
+          Shipping & Handling <input type="text" id = "Shipping & Handling">
+         Total <input type="text" id = "Total">
+        </fieldset></div>
+      </form>
+      <div class="buttons">
+           <button type="button">Complete</button> 
+           <button type="button">New Order</button>
+           <button type="button">Exit</button>
+      </div>  
+    </div>
+  </body>
 </html>
