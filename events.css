@@ -1,0 +1,51 @@
+body{
+    max-width: 500px;
+    margin:0 auto;
+    padding:0 16px;}
+} */
+
+/* .{
+    background-color: red;
+    padding: 15px;
+    margin: 16px;
+    border: 2px solid #dedede;
+    border-block-color: blue;
+    height: 1000px;
+    width: 1000px;
+    background-color: royalblue;
+} */
+.demo{
+    padding: 15px;
+    margin: 16px;
+    border: 2px solid #dedede;
+    border-block-color: blue;
+    height: 300px;
+    width: 600px;
+    background-color: royalblue; 
+    border-radius: 25px;
+    /* float: right; */
+/* }
+
+/* .div2{
+    background-color: yellow;
+    padding: 15px;
+    margin: 16px;
+    border: 2px solid #dedede;
+    border-block-color: blue;
+    height: 300px;
+    width: 600px;
+    background-color: purple;
+    <!--float: right;--> */
+/* }
+
+ .form{
+    background-color: lightslategrey;
+   padding: 15px;
+    margin: 16px;
+    border: 2px solid #dedede;
+    border-block-color: blue;
+    height: 300px;
+    width: 600px;
+    background-color: royalblue;
+    float: right;
+}  */

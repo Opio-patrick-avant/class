@@ -1,15 +1,58 @@
-.main{
-    background-color: rgb(196, 197, 255);
-   
-.minor{
-    background-color: coral;
+.main {
+  background-color: rgb(148, 148, 236);
+  height: 600px;
+  width: 100px;
+  padding:10px;
 }
-.minor2{
-    background-color: yellow;
-    width:100px;
-    height:1000px;
+
+.form
+{
+  background-color: rgb(221, 169, 134);
+  height:570px;
+  width:1190px;
+  padding:5px;
 }
-.form{
-    background-color: darkred;
-    height:600px;
+
+.div
+{
+   background-color: rgb(255, 123, 0);
+  height:250px;
+  width:47%;
+  display:inline-block;
+  padding:1px; 
+ margin:5px;
+
+}
+/* 
+.second
+{
+   background-color: black;
+  height:250px;
+  width:590px;  
+}
+
+.third
+{
+   background-color: rgb(255, 0, 212);
+  height:250px;
+  width:590px; 
+  float:; 
+}
+
+.fourth
+{
+   background-color:darkgoldenrod;
+  height:250px;
+  width:590px;   */
+
+fieldset {
+  display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  height:220px;
+   border: 2px groove (internal value);
 }
