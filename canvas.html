@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DANIMATION</title>
+    <style>
+    canvas{
+        border:2px solid black;
+        width: 560px;
+        height: 370px;
+    }
+    </style>
+</head>
+<body>
+    <h1>drawing with mouse event</h1>
+    <canvas i ="myPics" width="560px" heigt="370"></canvas>
+    <script>
+    let isDrawing = false;
+    let x=0;
+    y=0;
+    const myPics = document.getElementById('myPics')
+    const context = myPics.getContext('2d')
+    const rect = myPics.getBoundingClientRect()
+    myPics.addEventListener('mousedown',e=>{
+        x=e.clientX-rect.rect.left
+        y=e.clientY-rect.top
+        isDrawing = true
+    })
+
+    myPics
+    .addEventListener('mouseover',e=>{
+        if(isDrawing===true){
+            drawLine(context,x,y,e.clientY-rect.left.top)
+        }
+    })
+
+    window.addEventListener('mouseup',e=>{
+        if (isDrawing===true){
+            drawLine(context,x,y,e.clientx-rect.left,e.client.top)
+            x=0
+            y=0
+            isDrawing = false
+        }
+    })
+
+
+
+
+    </script>
+</body>
+</html>

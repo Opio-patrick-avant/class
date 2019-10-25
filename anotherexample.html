@@ -7,19 +7,21 @@
     <title>form</title>
 </head>
 <body id="form">
-    <form>
+    <form id ="form">
         <label>Test field:<input type='text'></label><br><br>
         <button type ="reset">Reset form</button>
         <p id ="log"></p>
        
     </form>
     <script>
+        /*creating event handler   an event  that will be trigered after event reset*/
         function logReset(event) {
             log.textContent = `Form reset! time Stamp: ${event.timeStamp}`
         }
-        const ax = document.getElementById("form")
-        const log = document.getElementById('log')
-        ax.addEventListener('reset', logReset)
+        /*accessing dom elements and we set a listener to form tag*/
+        const ax = document.getElementById("form")/*we  r  identifying elemement by ID */
+        const log = document.getElementById('log') /*we  r  identifying element by it ID*/
+        ax.addEventListener('reset', logReset) /*we  r  embedding  the  listener  to  a form */
     </script>
 </body>
 </html>

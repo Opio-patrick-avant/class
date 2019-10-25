@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login</title>
+    <script>
+      function username() {
+        var user = document.getElementById("name");
+        if (user.value == "") {
+          alert("u must enyter a value ib user name");
+        }
+      }
+    </script>
+    <link rel="stylesheet" type="text/css" href="osman.css" />
+  </head>
+  <body>
+    <div class="box">
+      Login
+      <form action="#">
+        <label for="name">Username:</label>
+        <input name="name" id="name" />
+        <label for="password">Password:</label>
+        <input name="password" />
+        <div class="buttons">
+          <input
+            name="submit"
+            type="Submit"
+            
+            onclick="()"
+          />
+          <input name="reset" type="reset" value="Clear Form" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
